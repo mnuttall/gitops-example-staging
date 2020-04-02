@@ -1,0 +1,6 @@
+---
+bases: 
+  - ../base
+patches:
+  - staging-service.yaml
+  - staging-deployment.yaml
