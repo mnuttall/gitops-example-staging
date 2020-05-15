@@ -9,9 +9,9 @@ Environment-specific configuration is held in the /overlays directories, and may
 To see things working:
 
 ```sh
-kustomize build services/service-a
-kustomize build apps/app-1
-kustomize build env
+kustomize build environments/staging/services/service-a
+kustomize build environments/staging/apps/app-1
+kustomize build environments/
 ```
 
 or `kubectl apply -k` these paths
